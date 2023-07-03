@@ -1,6 +1,6 @@
 body{
     margin:8px, 8px, 8px, 8px;
-    background-color: aliceblue;
+    background-color: rgb(79, 156, 224);
 }
 
 @keyframes div-animate { 
@@ -21,8 +21,16 @@ div{
 }
 
 #img {
+  position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  padding: 20rem, 20rem, 20rem, 20rem;
+  border-color: rgba(155, 107, 201, 0.979);
+  background-color: rgba(155, 107, 201, 0.979);
+  animation-name: div-animate;
+  animation-duration: 6s;
+  animation-iteration-count:infinite;
+  animation-direction:alternate;
 }
 
